@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<libro titulo="El camino" editorial="sm" numero_paginas="200" autor="Miguel Delibes">
+    <capitulos>
+        <capitulos titulo="capitulo 1" pagina_inicio="1" pagina_fin="20"/>
+        <capitulos titulo="capitulo 2" pagina_inicio="20" pagina_fin="50"/>
+        <capitulos titulo="capitulo 3" pagina_inicio="50" pagina_fin="80"/>
+        <capitulos titulo="capitulo 4" pagina_inicio="80" pagina_fin="100"/>
+        <capitulos titulo="capitulo 5" pagina_inicio="100" pagina_fin="150"/>
+        <capitulos titulo="capitulo 6" pagina_inicio="150" pagina_fin="200"/>
+    </capitulos>
+</libro>

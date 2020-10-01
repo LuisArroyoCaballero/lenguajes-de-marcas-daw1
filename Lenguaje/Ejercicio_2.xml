@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tiendas>
+    <tienda nombre="Zara">
+        <parcelas>
+            <parcela>20</parcela>
+            <parcela>40</parcela>
+        </parcelas>
+        <encagado nombre_encargado="Alfonso" apellido_encargado="Sanchez Jara" telefono_encargado="111111111" NSS="111111111111"/>
+    </tienda>
+    <tienda nombre="Zara">
+        <parcelas>
+            <parcela>20</parcela>
+            <parcela>40</parcela>
+        </parcelas>
+        <encagado nombre_encargado="Alfonso" apellido_encargado="Sanchez Jara" telefono_encargado="111111111" NSS="111111111111"/>
+    </tienda>
+    <tienda nombre="Zara">
+        <parcelas>
+            <parcela>20</parcela>
+            <parcela>40</parcela>
+        </parcelas>
+        <encagado nombre_encargado="Alfonso" apellido_encargado="Sanchez Jara" telefono_encargado="111111111" NSS="111111111111"/>
+    </tienda>
+    <tienda nombre="Zara">
+        <parcelas>
+            <parcela>20</parcela>
+            <parcela>40</parcela>
+        </parcelas>
+        <encagado nombre_encargado="Alfonso" apellido_encargado="Sanchez Jara" telefono_encargado="111111111" NSS="111111111111"/>
+    </tienda>
+    <tienda nombre="Zara">
+        <parcelas>
+            <parcela>20</parcela>
+            <parcela>40</parcela>
+        </parcelas>
+        <encagado nombre_encargado="Alfonso" apellido_encargado="Sanchez Jara" telefono_encargado="111111111" NSS="111111111111"/>
+    </tienda>
+    <tienda nombre="Zara">
+        <parcelas>
+            <parcela>20</parcela>
+            <parcela>40</parcela>
+        </parcelas>
+        <encagado nombre_encargado="Alfonso" apellido_encargado="Sanchez Jara" telefono_encargado="111111111" NSS="111111111111"/>
+    </tienda>
+    <tienda nombre="Zara">
+        <parcelas>
+            <parcela>20</parcela>
+            <parcela>40</parcela>
+        </parcelas>
+        <encagado nombre_encargado="Alfonso" apellido_encargado="Sanchez Jara" telefono_encargado="111111111" NSS="111111111111"/>
+    </tienda>
+    <tienda nombre="Zara">
+        <parcelas>
+            <parcela>20</parcela>
+            <parcela>40</parcela>
+        </parcelas>
+        <encagado nombre_encargado="Alfonso" apellido_encargado="Sanchez Jara" telefono_encargado="111111111" NSS="111111111111"/>
+    </tienda>
+    <tienda nombre="Zara">
+        <parcelas>
+            <parcela>20</parcela>
+            <parcela>40</parcela>
+        </parcelas>
+        <encagado nombre_encargado="Alfonso" apellido_encargado="Sanchez Jara" telefono_encargado="111111111" NSS="111111111111"/>
+    </tienda>
+</tiendas>

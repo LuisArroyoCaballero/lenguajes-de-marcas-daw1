@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<concesionario>
+    <marcas>  
+        <marca nombre="Seat" pais="España">
+            <coches>
+                <coche matricula="XXXX 111" año_matricula="1990" modelo="ibiza" numero_plazas="5" cc="200"/>
+                <coche matricula="XXXX 111" año_matricula="1990" modelo="ibiza" numero_plazas="5" cc="200"/>
+            </coches>
+        </marca>
+    </marcas>
+    <marcas>  
+        <marca nombre="Seat" pais="España">
+            <coches>
+                <coche matricula="XXXX 111" año_matricula="1990" modelo="ibiza" numero_plazas="5" cc="200"/>
+                <coche matricula="XXXX 111" año_matricula="1990" modelo="ibiza" numero_plazas="5" cc="200"/>
+            </coches>
+        </marca>
+    </marcas>
+    <marcas>  
+        <marca nombre="Seat" pais="España">
+            <coches>
+                <coche matricula="XXXX 111" año_matricula="1990" modelo="ibiza" numero_plazas="5" cc="200"/>
+                <coche matricula="XXXX 111" año_matricula="1990" modelo="ibiza" numero_plazas="5" cc="200"/>
+            </coches>
+        </marca>
+    </marcas>
+    <marcas>  
+        <marca nombre="Seat" pais="España">
+            <coches>
+                <coche matricula="XXXX 111" año_matricula="1990" modelo="ibiza" numero_plazas="5" cc="200"/>
+                <coche matricula="XXXX 111" año_matricula="1990" modelo="ibiza" numero_plazas="5" cc="200"/>
+            </coches>
+        </marca>
+    </marcas>
+    <marcas>  
+        <marca nombre="Seat" pais="España">
+            <coches>
+                <coche matricula="XXXX 111" año_matricula="1990" modelo="ibiza" numero_plazas="5" cc="200"/>
+                <coche matricula="XXXX 111" año_matricula="1990" modelo="ibiza" numero_plazas="5" cc="200"/>
+            </coches>
+        </marca>
+    </marcas>
+    <marcas>  
+        <marca nombre="Seat" pais="España">
+            <coches>
+                <coche matricula="XXXX 111" año_matricula="1990" modelo="ibiza" numero_plazas="5" cc="200"/>
+                <coche matricula="XXXX 111" año_matricula="1990" modelo="ibiza" numero_plazas="5" cc="200"/>
+            </coches>
+        </marca>
+    </marcas>
+</concesionario>

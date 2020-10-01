@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cartelera>
+    <peliculas>
+        <pelicula nombre="Deadpool 2" director="antonio" resumen="Comedia y accion">
+            <sesiones>
+                <sesion hora="7:00-8:45" sala="3"/> 
+                <sesion hora="8:45-9:30" sala="1"/>
+                <sesion hora="8:45-9:30" sala="1"/>
+            </sesiones>
+            <protagonistas>
+                <protagonista>Ryan Reynolds</protagonista>
+                <protagonista>Hugh Jackman</protagonista>
+            </protagonistas>
+        </pelicula>
+    </peliculas>
+</cartelera>
