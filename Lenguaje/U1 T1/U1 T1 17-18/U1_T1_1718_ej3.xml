@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<horario>
+    <Lunes>
+        <Tramos>
+            <Tramo Hora="15:15-18:15" Asignatura="Programacion" Profesor="Jose Maria" Aula="Daw1"/>
+            <Tramo Hora="18:15-18:30" Asignatura="Descanso"/>
+            <Tramo Hora="18:30-20:30" Asignatura="Sistemas informaticos" Profesor="Andres" Aula="Daw1"/>
+            <Tramo Hora="20:30-21:30" Asignatura="Formacion y orientacion laboral" Profesor="Elena" Aula="Daw1"/>
+        </Tramos>
+    </Lunes>
+        <Lunes>
+        <Tramos>
+            <Tramo Hora="15:15-18:15" Asignatura="Programacion" Profesor="Jose Maria" Aula="Daw1"/>
+            <Tramo Hora="18:15-18:30" Asignatura="Descanso"/>
+            <Tramo Hora="18:30-20:30" Asignatura="Sistemas informaticos" Profesor="Andres" Aula="Daw1"/>
+            <Tramo Hora="20:30-21:30" Asignatura="Formacion y orientacion laboral" Profesor="Elena" Aula="Daw1"/>
+        </Tramos>
+    </Lunes>
+        <Lunes>
+        <Tramos>
+            <Tramo Hora="15:15-18:15" Asignatura="Programacion" Profesor="Jose Maria" Aula="Daw1"/>
+            <Tramo Hora="18:15-18:30" Asignatura="Descanso"/>
+            <Tramo Hora="18:30-20:30" Asignatura="Sistemas informaticos" Profesor="Andres" Aula="Daw1"/>
+            <Tramo Hora="20:30-21:30" Asignatura="Formacion y orientacion laboral" Profesor="Elena" Aula="Daw1"/>
+        </Tramos>
+    </Lunes>
+        <Lunes>
+        <Tramos>
+            <Tramo Hora="15:15-18:15" Asignatura="Programacion" Profesor="Jose Maria" Aula="Daw1"/>
+            <Tramo Hora="18:15-18:30" Asignatura="Descanso"/>
+            <Tramo Hora="18:30-20:30" Asignatura="Sistemas informaticos" Profesor="Andres" Aula="Daw1"/>
+            <Tramo Hora="20:30-21:30" Asignatura="Formacion y orientacion laboral" Profesor="Elena" Aula="Daw1"/>
+        </Tramos>
+    </Lunes>
+        <Lunes>
+        <Tramos>
+            <Tramo Hora="15:15-18:15" Asignatura="Programacion" Profesor="Jose Maria" Aula="Daw1"/>
+            <Tramo Hora="18:15-18:30" Asignatura="Descanso"/>
+            <Tramo Hora="18:30-20:30" Asignatura="Sistemas informaticos" Profesor="Andres" Aula="Daw1"/>
+            <Tramo Hora="20:30-21:30" Asignatura="Formacion y orientacion laboral" Profesor="Elena" Aula="Daw1"/>
+        </Tramos>
+    </Lunes>
+
+</horario>
