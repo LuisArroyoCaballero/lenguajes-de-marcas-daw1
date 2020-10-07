@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cluster>
+    <nodos>
+        <nodo1 nombre="Nodo 1" ip="1111111111">
+            <Maquina_Virtual_1 Nombre_maquina="Sun Linux" Sistema_Operativo="Linux">
+                <interfaz_de_red1>
+                    <ip>11111111</ip>
+                    <mac>XXXXXX</mac>
+                </interfaz_de_red1>
+                <interfaz_de_red2>
+                    <ip>11111134</ip>
+                    <mac>XXXXBB</mac>
+                </interfaz_de_red2>
+            </Maquina_Virtual_1>
+            <Maquina_Virtual_2 Nombre_maquina="Sun Windows" Sistema_Operativo="Windows">
+                <interfaz_de_red1>
+                    <ip>11111112</ip>
+                    <mac>XXXXXA</mac>
+                </interfaz_de_red1>
+                <interfaz_de_red2>
+                    <ip>11111333</ip>
+                    <mac>XXXBBB</mac>
+                </interfaz_de_red2>
+            </Maquina_Virtual_2>
+            <Maquina_Virtual_3 Nombre_maquina="IBM" Sistema_Operativo="Windows">
+                <interfaz_de_red1>
+                    <ip>11115342</ip>
+                    <mac>XXXEEE</mac>
+                </interfaz_de_red1>
+                <interfaz_de_red2>
+                    <ip>11777777</ip>
+                    <mac>TTTTTT</mac>
+                </interfaz_de_red2>
+            </Maquina_Virtual_3>
+
+        </nodo1>
+        <nodo2 nombre="Nodo 2" ip="1111111112">
+            <Maquina_Virtual_1 Nombre_maquina="Sun Linux" Sistema_Operativo="Linux">
+                <interfaz_de_red>
+                    <ip>11829475</ip>
+                    <mac>X34578</mac>
+                </interfaz_de_red>
+            </Maquina_Virtual_1>
+            <Maquina_Virtual_2 Nombre_maquina="Sun Linux" Sistema_Operativo="Linux">
+                <interfaz_de_red>
+                    <ip>11111111</ip>
+                    <mac>XXXXXX</mac>
+                </interfaz_de_red>
+            </Maquina_Virtual_2>
+            <Maquina_Virtual_3 Nombre_maquina="Sun Linux" Sistema_Operativo="Linux">
+                <interfaz_de_red>
+                    <ip>11111111</ip>
+                    <mac>XXXXXX</mac>
+                </interfaz_de_red>
+            </Maquina_Virtual_3>
+
+        </nodo2>
+        <nodo3 nombre="Maquina 1" ip="1111111113">
+            <Maquina_Virtual_1 Nombre_maquina="Sun Linux" Sistema_Operativo="Linux">
+                <interfaz_de_red>
+                    <ip>11111111</ip>
+                    <mac>XXXXXX</mac>
+                </interfaz_de_red>
+            </Maquina_Virtual_1>
+            <Maquina_Virtual_2 Nombre_maquina="Sun Linux" Sistema_Operativo="Linux">
+                <interfaz_de_red>
+                    <ip>11111111</ip>
+                    <mac>XXXXXX</mac>
+                </interfaz_de_red>
+            </Maquina_Virtual_2>
+            <Maquina_Virtual_3 Nombre_maquina="Sun Linux" Sistema_Operativo="Linux">
+                <interfaz_de_red>
+                    <ip>45693201</ip>
+                    <mac>EDRTBH</mac>
+                </interfaz_de_red>
+            </Maquina_Virtual_3>
+
+        </nodo3>
+        <nodo4 nombre="Maquina 1" ip="1111111114">
+            <Maquina_Virtual_1 Nombre_maquina="Sun Linux" Sistema_Operativo="Linux">
+                <interfaz_de_red>
+                    <ip>47103546</ip>
+                    <mac>LOPÑJU</mac>
+                </interfaz_de_red>
+            </Maquina_Virtual_1>
+            <Maquina_Virtual_2 Nombre_maquina="Sun Linux" Sistema_Operativo="Linux">
+                <interfaz_de_red>
+                    <ip>78415474</ip>
+                    <mac>JKAJHF</mac>
+                </interfaz_de_red>
+            </Maquina_Virtual_2>
+            <Maquina_Virtual_3 Nombre_maquina="Sun Linux" Sistema_Operativo="Linux">
+                <interfaz_de_red>
+                    <ip>82125074</ip>
+                    <mac>LAUEHF</mac>
+                </interfaz_de_red>
+            </Maquina_Virtual_3>
+
+        </nodo4>
+        <nodo5 nombre="Maquina 1" ip="1111111115">
+            <Maquina_Virtual_1 Nombre_maquina="Sun Linux" Sistema_Operativo="Linux">
+                <interfaz_de_red>
+                    <ip>4136543</ip>
+                    <mac>LAUNBB</mac>
+                </interfaz_de_red>
+            </Maquina_Virtual_1>
+            <Maquina_Virtual_2 Nombre_maquina="Sun Linux" Sistema_Operativo="Linux">
+                <interfaz_de_red>
+                    <ip>43524396</ip>
+                    <mac>LAUETT</mac>
+                </interfaz_de_red>
+            </Maquina_Virtual_2>
+            <Maquina_Virtual_3 Nombre_maquina="Sun Linux" Sistema_Operativo="Linux">
+                <interfaz_de_red>
+                    <ip>57687877</ip>
+                    <mac>KFBITT</mac>
+                </interfaz_de_red>
+            </Maquina_Virtual_3>
+
+        </nodo5>
+    </nodos>
+
+
+</cluster>

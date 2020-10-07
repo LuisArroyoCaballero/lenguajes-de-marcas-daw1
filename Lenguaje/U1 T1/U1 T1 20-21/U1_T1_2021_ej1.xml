@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<torneo Nombre="Roland Garros" Fecha="21/09/2020 - 11/10/2020">
+    <partidos>
+        <partido1 fecha="21/09/2020" hora="19:00 GMT">
+            <Jugadores>
+                <Jugador1 Nombre="Rafa" Apellido="Nadal" Nacionalidad="Español" Edad="34" Altura="1,85m" Peso="85kg" Entrenador="Carlos Moyá"/>
+                <Jugador2 Nombre="Roger" Apellido="Federer" Nacionalidad="Francia" Edad="39" Altura="1,85m" Peso="85kg" Entrenador="Severin Luthi"/>
+            </Jugadores>
+            <Sets>
+                <Primer_Set>Rafael Nadal=6 - Roger Federer=4</Primer_Set>
+                <Segundo_Set>Rafael Nadal=6 - Roger Federer=4</Segundo_Set>
+                <Tercer_Set>Rafael Nadal=6 - Roger Federer=7</Tercer_Set>
+                <Cuarto_Set>Rafael Nadal=6 - Roger Federer=7</Cuarto_Set>
+                <Quinto_Set>Rafael Nadal=9 - Roger Federer=7</Quinto_Set>
+            </Sets>
+        </partido1>
+        <partido2 fecha="22/09/2020" hora="09:00 GMT">
+            <Jugadores>
+                <Jugador1 Nombre="Novak" Apellido="Djokovic" Nacionalidad="Serbia" Edad="33" Altura="1,88m" Peso="77kg" Entrenador="Marian Vadja"/>
+                <Jugador2 Nombre="Daniel" Apellido="Elahi" Nacionalidad="Colombia" Edad="24" Altura="1,91m" Peso="72kg" Entrenador="Santos Galan"/>
+            </Jugadores>
+            <Sets>
+                <Primer_Set>Novak Djokovic=6 - Daniel Elahi=0</Primer_Set>
+                <Segundo_Set>Novak Djokovic=6 - Daniel Elahi=3</Segundo_Set>
+                <Tercer_Set>Novak Djokovic=6 - Daniel Elahi=2</Tercer_Set>
+            </Sets>
+        </partido2>
+        <partido3 fecha="22/09/2020" hora="16:00 GMT">
+            <Jugadores>
+                <Jugador1 Nombre="Stan" Apellido="Wawrinka" Nacionalidad="Suiza" Edad="35" Altura="1,83m" Peso="81kg" Entrenador="Daniel Vallverdú"/>
+                <Jugador2 Nombre="Hugo" Apellido="Gaston" Nacionalidad="Francia" Edad="20" Altura="1,73m" Peso="68kg" Entrenador="-"/>
+            </Jugadores>
+            <Sets>
+                <Primer_Set>Stan Wawrinka=6 - Hugo Gaston=2</Primer_Set>
+                <Segundo_Set>Stan Wawrinka=3 - Hugo Gaston=6</Segundo_Set>
+                <Tercer_Set>Stan Wawrinka=3 - Hugo Gaston=6</Tercer_Set>
+                <Cuarto_Set>Stan Wawrinka=6 - Hugo Gaston=4</Cuarto_Set>
+                <Quinto_Set>Stan Wawrinka=0 - Hugo Gaston=6</Quinto_Set>
+            </Sets>
+        </partido3>
+        <partido4 fecha="23/09/2020" hora="09:00 GMT">
+            <Jugadores>
+                <Jugador1 Nombre="Casper" Apellido="Ruud" Nacionalidad="Noruega" Edad="21" Altura="1,85m" Peso="77kg" Entrenador="Christian Ruud"/>
+                <Jugador2 Nombre="Dominic" Apellido="Thiem" Nacionalidad="Austria" Edad="27" Altura="1,85m" Peso="79kg" Entrenador="Nicolas Massu"/>
+            </Jugadores>
+            <Sets>
+                <Primer_Set>Casper Ruud=4 - Dominic Thiem=6</Primer_Set>
+                <Segundo_Set>Casper Ruud=3 - Dominic Thiem=6</Segundo_Set>
+                <Tercer_Set>Casper Ruud=1 - Dominic Thiem=6</Tercer_Set>
+            </Sets>
+        </partido4>
+        <partido5 fecha="23/09/2020" hora="16:00 GMT">
+            <Jugadores>
+                <Jugador1 Nombre="Federico" Apellido="Coria" Nacionalidad="Argentina" Edad="28" Altura="1,80m" Peso="73kg" Entrenador="-"/>
+                <Jugador2 Nombre="Jannik" Apellido="Sinner" Nacionalidad="Italia" Edad="19" Altura="1,88m" Peso="76kg" Entrenador="Ricardo Piatti"/>
+            </Jugadores>
+            <Sets>
+                <Primer_Set>Federico Coria=6 - Jannik Sinner=4</Primer_Set>
+                <Segundo_Set>Federico Coria=6 - Jannik Sinner=2</Segundo_Set>
+                <Tercer_Set>Federico Coria=6 - Jannik Sinner=3</Tercer_Set>
+            </Sets>
+        </partido5>
+        <partido6 fecha="25/09/2020" hora="09:00 GMT">
+            <Jugadores>
+                <Jugador1 Nombre="Rafa" Apellido="Nadal" Nacionalidad="Español" Edad="34" Altura="1,85m" Peso="85kg" Entrenador="Carlos Moyá"/>
+                <Jugador2 Nombre="Novak" Apellido="Djokovic" Nacionalidad="Serbia" Edad="33" Altura="1,88m" Peso="77kg" Entrenador="Marian Vadja"/>
+            </Jugadores>
+            <Sets>
+                <Primer_Set>Rafael Nadal=6 - Novak Djokovic=4</Primer_Set>
+                <Segundo_Set>Rafael Nadal=6 - Novak Djokovic=4</Segundo_Set>
+                <Tercer_Set>Rafael Nadal=6 - Novak Djokovic=4</Tercer_Set>                
+            </Sets>
+        </partido6>
+        <partido7 fecha="26/09/2020" hora="19:00 GMT">
+            <Jugadores>
+                <Jugador1 Nombre="Novak" Apellido="Djokovic" Nacionalidad="Serbia" Edad="33" Altura="1,88m" Peso="77kg" Entrenador="Marian Vadja"/>
+                <Jugador2 Nombre="Roger" Apellido="Federer" Nacionalidad="Español" Edad="39" Altura="1,85m" Peso="85kg" Entrenador="Severin Luthi"/>
+            </Jugadores>
+            <Sets>
+                <Primer_Set>Novak Djokovic=7 - Roger Federer=6</Primer_Set>
+                <Segundo_Set>Novak Djokovic=7 - Roger Federer=6</Segundo_Set>
+                <Tercer_Set>Novak Djokovic=6 - Roger Federer=4</Tercer_Set>
+                
+            </Sets>
+        </partido7>
+        <partido8 fecha="27/09/2020" hora="19:00 GMT">
+            <Jugadores>
+                <Jugador1 Nombre="Jannik" Apellido="Sinner" Nacionalidad="Italia" Edad="19" Altura="1,88m" Peso="76kg" Entrenador="Ricardo Piatti"/>
+                <Jugador2 Nombre="Roger" Apellido="Federer" Nacionalidad="Español" Edad="39" Altura="1,85m" Peso="85kg" Entrenador="Severin Luthi"/>
+            </Jugadores>
+            <Sets>
+                <Primer_Set>Jannik Sinner=2 - Roger Federer=6</Primer_Set>
+                <Segundo_Set>Jannik Sinner=1 - Roger Federer=6</Segundo_Set>
+                <Tercer_Set>Jannik Sinner=4 - Roger Federer=6</Tercer_Set>                
+            </Sets>
+        </partido8>
+        <partido9 fecha="28/09/2020" hora="19:00 GMT">
+            <Jugadores>
+                <Jugador1 Nombre="Rafa" Apellido="Nadal" Nacionalidad="Español" Edad="34" Altura="1,85m" Peso="85kg" Entrenador="Carlos Moyá"/>
+                <Jugador2 Nombre="Jannik" Apellido="Sinner" Nacionalidad="Italia" Edad="19" Altura="1,88m" Peso="76kg" Entrenador="Ricardo Piatti"/>
+            </Jugadores>
+            <Sets>
+                <Primer_Set>Rafael Nadal=6 - Jannik Sinner=4</Primer_Set>
+                <Segundo_Set>Rafael Nadal=7 - Jannik Sinner=6</Segundo_Set>
+                <Tercer_Set>Rafael Nadal=6 - Jannik Sinner=4</Tercer_Set>
+                
+            </Sets>
+        </partido9>
+        <partido10 fecha="29/09/2020" hora="19:00 GMT">
+            <Jugadores>
+                <Jugador1 Nombre="Rafa" Apellido="Nadal" Nacionalidad="Español" Edad="34" Altura="1,85m" Peso="85kg" Entrenador="Carlos Moyá"/>
+                <Jugador2 Nombre="Dominic" Apellido="Thiem" Nacionalidad="Austria" Edad="27" Altura="1,85m" Peso="79kg" Entrenador="Nicolas Massu"/>
+            </Jugadores>
+            <Sets>
+                <Primer_Set>Rafael Nadal=6 - Thiem=4</Primer_Set>
+                <Segundo_Set>Rafael Nadal=6 - Thiem=2</Segundo_Set>
+                <Tercer_Set>Rafael Nadal=6 - Thiem=0</Tercer_Set>
+            </Sets>
+        </partido10>
+        
+        
+        
+
+
+    </partidos>
+
+
+</torneo>

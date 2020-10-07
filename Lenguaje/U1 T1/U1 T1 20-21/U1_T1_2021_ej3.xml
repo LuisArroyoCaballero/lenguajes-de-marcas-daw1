@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<directorio>
+    <edificios>
+        <edificio1 direccion="calle amatista" numero_de_plantas="3">
+            <plantas>
+                <planta Numero="1" Cuadrados="5">
+                    <empleados>
+                        <Empleado_1 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_2 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_3 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_4 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_5 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                    </empleados>    
+                </planta>
+                <planta Numero="2" Cuadrados="5">
+                    <empleados>
+                        <Empleado_1 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_2 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_3 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_4 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_5 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                    </empleados>    
+                </planta>
+                <planta Numero="3" Cuadrados="5">
+                    <empleados>
+                        <Empleado_1 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_2 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_3 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_4 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_5 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                    </empleados>    
+                </planta>
+            </plantas>
+        </edificio1>
+        <edificio2 direccion="calle amatista" numero_de_plantas="3">
+            <plantas>
+                <planta Numero="1" Cuadrados="5">
+                    <empleados>
+                        <Empleado_1 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_2 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_3 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_4 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_5 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                    </empleados>    
+                </planta>
+                <planta Numero="2" Cuadrados="5">
+                    <empleados>
+                        <Empleado_1 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_2 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_3 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_4 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_5 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                    </empleados>    
+                </planta>
+                <planta Numero="3" Cuadrados="5">
+                    <empleados>
+                        <Empleado_1 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_2 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_3 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_4 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_5 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                    </empleados>    
+                </planta>
+            </plantas>
+        </edificio2>
+        <edificio3 direccion="calle amatista" numero_de_plantas="3">
+            <plantas>
+                <planta Numero="1" Cuadrados="5">
+                    <empleados>
+                        <Empleado_1 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_2 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_3 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_4 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_5 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                    </empleados>    
+                </planta>
+                <planta Numero="2" Cuadrados="5">
+                    <empleados>
+                        <Empleado_1 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_2 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_3 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_4 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_5 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                    </empleados>    
+                </planta>
+                <planta Numero="3" Cuadrados="5">
+                    <empleados>
+                        <Empleado_1 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_2 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_3 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_4 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                        <Empleado_5 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
+                    </empleados>    
+                </planta>
+            </plantas>
+        </edificio3>
+
+
+
+    </edificios>
+
+
+</directorio>
