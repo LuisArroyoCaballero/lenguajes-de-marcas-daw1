@@ -60,12 +60,7 @@
                         <Empleado_4 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
                         <Empleado_5 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
                     </empleados>    
-                </planta>
-            </plantas>
-        </edificio2>
-        <edificio3 direccion="calle amatista" numero_de_plantas="3">
-            <plantas>
-                <planta Numero="1" Cuadrados="5">
+                </planta>EDIFICIO 1
                     <empleados>
                         <Empleado_1 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>
                         <Empleado_2 Puesto="Sectretario" Nombre="Julian" Apellido="Garrido" Extension_Telefonica="123654854"/>

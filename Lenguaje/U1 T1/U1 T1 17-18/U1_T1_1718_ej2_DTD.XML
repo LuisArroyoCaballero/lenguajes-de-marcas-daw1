@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE equipo [
+
+<!ELEMENT equipo (piezas)>
+<!ELEMENT piezas (pieza)+>
+<!ELEMENT pieza (caracteristicas)>
+<!ELEMENT caracteristicas (caracteristica)+>
+<!ELEMENT carasteristica (#PCDATA)>
+
+]>
+
+
+<equipo nombre="nombre">
+
+    <piezas>
+        <pieza tipo="tipo" fabricante="fabricante" precio="precio"/>
+            <caracteristicas>
+                <caracteristica>caracteristica</caracteristica>
+                <caracteristica>caracteristica</caracteristica>
+                <caracteristica>caracteristica</caracteristica>
+            </caracteristicas>
+        <pieza tipo="tipo" fabricante="fabricante" precio="precio"/>
+            <caracteristicas>
+                <caracteristica>caracteristica</caracteristica>
+                <caracteristica>caracteristica</caracteristica>
+                <caracteristica>caracteristica</caracteristica>
+            </caracteristicas>
+        
+
+    </piezas>
+    
+</equipo>
