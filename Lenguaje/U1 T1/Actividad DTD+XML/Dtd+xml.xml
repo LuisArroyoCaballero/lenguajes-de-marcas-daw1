@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Informe_ventas [
+
+<!ELEMENT Informe_ventas (region)+>
+<!ATTLIST Informe_ventas Descripcion CDATA "Informe de ventas para las regiones Norte, Centro y Sur">
+<!ATTLIST Informe_ventas Fecha CDATA #REQUIRED>
+<!ELEMENT region (TRIMESTRE)+>
+<!ATTLIST region nombre_region (NORTE|CENTRO|SUR) "NORTE">
+<!ELEMETN TRIMESTRE (Libros_Vendidos)>
+<!ATTLIST TRIMESTRE numero (1|2|3|4) "1">
+<!ELEMENT Libros_Vendidos (#PCDATA)>
+
+]>
+
+
+<Informe_ventas Descripcion="Informe de ventas para las regiones Norte, Centro y Sur" Fecha="30/12/2009">
+    <region nombre_region="NORTE">
+        <TRIMESTRE numero="1">
+            <Libros_Vendidos>24000</Libros_Vendidos>
+        </TRIMESTRE>
+        <TRIMESTRE numero="2">
+            <Libros_Vendidos>38600</Libros_Vendidos>
+        </TRIMESTRE>
+        <TRIMESTRE numero="3">
+            <Libros_Vendidos>NO_INFO</Libros_Vendidos>
+        </TRIMESTRE>
+        <TRIMESTRE numero="4">
+            <Libros_Vendidos>NO_INFO</Libros_Vendidos>
+        </TRIMESTRE>
+    </region>
+    <region nombre_region="CENTRO">
+        <TRIMESTRE numero="1">
+            <Libros_Vendidos>NO_INFO</Libros_Vendidos>
+        </TRIMESTRE>
+        <TRIMESTRE numero="2">
+            <Libros_Vendidos>16080</Libros_Vendidos>
+        </TRIMESTRE>
+        <TRIMESTRE numero="3">
+            <Libros_Vendidos>25000</Libros_Vendidos>
+        </TRIMESTRE>
+        <TRIMESTRE numero="4">
+            <Libros_Vendidos>29000</Libros_Vendidos>
+        </TRIMESTRE>
+    </region>
+    <region nombre_region="SUR">
+        <TRIMESTRE numero="1">
+            <Libros_Vendidos>27000</Libros_Vendidos>
+        </TRIMESTRE>
+        <TRIMESTRE numero="2">
+            <Libros_Vendidos>31400</Libros_Vendidos>
+        </TRIMESTRE>
+        <TRIMESTRE numero="3">
+            <Libros_Vendidos>40100</Libros_Vendidos>
+        </TRIMESTRE>
+        <TRIMESTRE numero="4">
+            <Libros_Vendidos>30000</Libros_Vendidos>
+        </TRIMESTRE>
+    </region>
+
+
+
+
+
+
+
+</Informe_ventas>
