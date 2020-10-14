@@ -6,7 +6,7 @@
 <!ATTLIST Informe_ventas Fecha CDATA #REQUIRED>
 <!ELEMENT region (TRIMESTRE)+>
 <!ATTLIST region nombre_region (NORTE|CENTRO|SUR) "NORTE">
-<!ELEMETN TRIMESTRE (Libros_Vendidos)>
+<!ELEMENT TRIMESTRE (Libros_Vendidos)>
 <!ATTLIST TRIMESTRE numero (1|2|3|4) "1">
 <!ELEMENT Libros_Vendidos (#PCDATA)>
 
