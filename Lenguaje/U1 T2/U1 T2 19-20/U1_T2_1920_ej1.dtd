@@ -2,4 +2,4 @@
 <!ELEMENT iceCream (chocolate | strawberry)>
 <!ATTLIST iceCream manufacture CDATA #REQUIRED>
 <!ELEMENT chocolate (#PCDATA)>
-<!ELEMENT strawberry (#PCDATA)>
+<!ELEMENT strawberry (#PCDATA)> 
