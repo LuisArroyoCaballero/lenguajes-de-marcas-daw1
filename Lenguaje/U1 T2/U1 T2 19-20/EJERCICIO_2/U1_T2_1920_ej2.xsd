@@ -12,15 +12,15 @@ elementFormDefault="qualified">
                             <xs:complexType>
                                 <xs:sequence>
                                     <xs:element name="street" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
-                                    <xs:element name="number" type="xs:integer" minOccurs="1" maxOccurs="1"></xs:element>
+                                    <xs:element name="number" type="xs:positiveInteger" minOccurs="1" maxOccurs="1"></xs:element>
                                     <xs:element name="city" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
                                     <xs:element name="province" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
                                 </xs:sequence>
                             </xs:complexType>
                         </xs:element>
-                        <xs:element name="phone" type="xs:integer" minOccurs="1" maxOccurs="1"></xs:element>
+                        <xs:element name="phone" type="xs:positiveInteger" minOccurs="1" maxOccurs="1"></xs:element>
                     </xs:sequence>
-                    <xs:attribute name="dni">
+                    <xs:attribute name="dni" use="required">
                         <xs:simpleType>
                             <xs:restriction base="xs:string">
                                 <xs:pattern value="[0-9]{8}[a-zA-Z]"/>
