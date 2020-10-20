@@ -20,7 +20,13 @@ elementFormDefault="qualified">
                         </xs:element>
                         <xs:element name="phone" type="xs:integer" minOccurs="1" maxOccurs="1"></xs:element>
                     </xs:sequence>
-                    <xs:attribute name="dni" type="xs:dniT"></xs:attribute>
+                    <xs:attribute name="dni">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:pattern value="[0-9]{8}[a-zA-Z]"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
                 </xs:complexType>
             </xs:element>
         </xs:sequence>
