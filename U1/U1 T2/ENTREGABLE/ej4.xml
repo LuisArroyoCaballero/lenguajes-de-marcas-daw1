@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<shiporder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="ej4.xsd"
+orderid="Cuatrocientos">
+    <orderperson>Primero</orderperson>
+    <shipto>
+        <name>Julio</name>
+        <address>Calle Flamenco</address>
+        <city>Madrid</city>
+        <country>España</country>
+    </shipto>
+    <item>
+        <title>Pelota</title>
+        <quantity>3</quantity>
+        <price>4.80</price>
+    </item>
+    <item>
+        <title>Platano</title>
+        <quantity>6</quantity>
+        <price>5.15</price>
+    </item>
+
+
+</shiporder>

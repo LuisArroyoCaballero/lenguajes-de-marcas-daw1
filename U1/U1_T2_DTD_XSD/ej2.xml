@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Libro SYSTEM "ej2.dtd">
+
+<Libro Catalogo="AAAAA">
+    <Titulo>XML para novatos</Titulo>
+    <Seccion>2</Seccion>
+    <Contenido>
+        <Capitulo materia="XML">
+            <Tema>1</Tema>
+            <Tema>2</Tema>
+            <Tema>3</Tema>
+        </Capitulo>
+        <Capitulo materia="XML">
+            <Tema>4</Tema>
+            <Tema>5</Tema>
+            <Tema>6</Tema>
+        </Capitulo>
+        <Capitulo materia="XML">
+            <Tema>7</Tema>
+            <Tema>8</Tema>
+            <Tema>9</Tema>
+        </Capitulo>
+    </Contenido>
+    <Copyright>El libro tiene Copyright</Copyright>
+</Libro>
