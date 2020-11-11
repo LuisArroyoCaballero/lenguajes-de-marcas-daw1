@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4 (ej.html)</title>
+    <style>
+        table {
+            border: darkkhaki solid 1px;
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        th,td {
+            width: 300px;
+            height: 40px;
+            padding-left: 30px;
+        }
+
+    </style>  
+    
+
+</head>
+<body>
+    <form method="POST" action="https://www.youtube.com/">
+            <table>
+                <thead style="text-align: left; background-color: darkkhaki;">
+                    <tr>
+                        <th colspan="2"><label for="Form" > Leave Form
+
+                            </label>
+                            <select id="Form">
+                                <option value="More Actions" selected >More Actions</option>
+                                <option value="Acion2">Action 2</option>
+                            </select>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody style="text-align: left;">
+                    <tr>
+                        <th><label for="Email">Employee Email</label></th>
+                        <th>
+                            <select name="Email" id="Email" style="width: 180px;background-color: darkkhaki;" disabled>
+                                <option value="1" selected>appuser@zohocreator.com</option>
+                                <option value="2">appuser123123333@zohocreator.com</option>
+                                <option value="3">appuser45454@zohocreator.com</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for="ID">Employee ID</label></th>
+                        <th><input type="text" name="ID" value="232" disabled style="background-color:  darkkhaki;"></th>
+                    </tr>
+                    <tr>
+                        <th><label for="Name">Employee ID</label></th>
+                        <th><input type="text" name="Name" value="appuser" disabled style="background-color: darkkhaki;"></th>
+                    </tr>
+                    <tr>
+                        <th><label for="Designation">Designation</label></th>
+                        <th><input type="text" name="ID" value="Team Leader" disabled style="background-color:  darkkhaki;"></th>
+                    </tr>
+                    <tr>
+                        <th><label for="Leave">Leave type<a style="color: crimson;">*</a></label></th>
+                        <th>
+                            <select name="Leave" id="Leave" style="width: 180px;">
+                                <option value="0" selected disabled>-Select-</option>
+                                <option value="10">Fired</option>
+                                <option value="20">Leave</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr>
+                        
+                    </tr>
+                    <tr>
+                        
+                    </tr>
+                    <tr>
+                        <th><label for="From">From<a style="color: crimson;">*</a></label></th>
+                        <th><input type="date" name="From"><img alt="Imagen de Calendario" src="img/calendar.png" width="25px" height="25px" style="vertical-align: bottom ;"><a style="font-size: 10px;">[dd-MMM-yyyy]</a></th>
+                    </tr>
+                    <tr>
+                        <th><label for="To">To<a style="color: crimson;">*</a></label></th>
+                        <th><input type="date" name="To"><img alt="Imagen de Calendario" src="img/calendar.png" width="25px" height="25px" style="vertical-align: bottom ;"><a style="font-size: 10px;">[dd-MMM-yyyy]</a></th>
+                    </tr>
+                    <tr>
+                        <th><label for="No_of_Days">No of Days</label></th>
+                        <th><input type="text" name="No_of_Days"></th>
+                    </tr>
+                    <tr>
+                        <th VALIGN="TOP"><label for="Reason"><a >Reason</a></label></th>
+                        <th><input type="text" name="Reason" style="height: 100px;"></th>
+                    </tr>
+                   
+
+
+
+                    
+
+                </tbody>
+                <tfoot style="background-color: lightgray;">
+                    <tr>
+                        <th colspan="2"><center><input type="submit" value="Submit"  style="width: 70px;"/><input type="reset" value="Reset" style="width: 70px;"/></center></th>
+                    </tr>
+                </tfoot>
+            </table>
+    </form>
+    
+</body>
+</html>
