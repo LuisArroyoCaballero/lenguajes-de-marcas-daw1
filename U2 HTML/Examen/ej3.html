@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej3</title>
+    <style>
+        table,td,th {
+            border: rgb(182, 16, 16) solid 2px;
+            border-style: dashed;
+            text-align: center;
+            
+        }
+        td, th {
+            padding-left: 7px;
+            padding-right: 7px;
+            padding-top: 0px;
+
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead style="background-color:rgb(240, 217, 188);">
+            <tr>
+                <th>Número del catálogo</th>
+                <th>Nombre</th>
+                <th>Imagen</th>
+                <th>Web donde lo encontramos</th>
+                <th>Tienda</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>7821562</td>
+                <td>Atari Mini</td>
+                <td><img alt="Imagen Atari Mini" src="img/atari.png" width="137px" height="80px"></td>
+                <td><a href="http://www.ebay.es" target="_blank">http://www.ebay.es</a></td>
+                <td>E-Bay</td>
+                <td>100€</td>
+            </tr>
+            <tr>
+                <td>243243</td>
+                <td>Super Nintendo Mini</td>
+                <td><img alt="Imagen Atari Mini" src="img/super_nintendo.png" width="137px" height="80px"></td>
+                <td rowspan="3" colspan="2"><a href="http://www.amazon.es" target="_blank">http://www.amazon.es</a></td>
+                <td>100€</td>
+            </tr>
+            <tr>
+                <td>593922</td>
+                <td>Mega Drive Mini</td>
+                <td><img alt="Imagen Atari Mini" src="img/megadrive.png" width="137px" height="80px"></td>
+                <td>200€</td>
+            </tr>
+            <tr>
+                <td>293944</td>
+                <td>Playstation Mini</td>
+                <td><img alt="Imagen Atari Mini" src="img/play_mini.png" width="137px" height="80px"></td>
+                <td>300€</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr style="background-color: rgb(240, 217, 188);">
+                <th>Número de catalogo</th>
+                <th>Nombre</th>
+                <th>Imagen</th>
+                <th>Web donde lo encontramos</th>
+                <th>Tienda</th>
+                <th>Precio</th>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

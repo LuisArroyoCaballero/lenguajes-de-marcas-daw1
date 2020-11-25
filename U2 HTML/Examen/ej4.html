@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej4</title>
+    <style>
+        body {
+            border: solid blue 4px;
+            width: 35%;
+            padding: 20px;
+        }
+        fieldset{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+            <h1>Reservation Request</h1>
+            <form method="POST" action="http://www.amazon.es">
+                <fieldset>
+                    <legend style="color: blue;">General Information</legend>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><label for="Arrival_Date">Arrival Date:</label></td>
+                                <td><input type="date" name="Arrival_Date"></td>
+                                <td style="color: red;">Arrival date is invalid.</td>
+                            </tr>
+                            <tr>
+                                <td><label for="Nights">Nights:</label></td>
+                                <td><input type="text" name="Nights" value="three"></td>
+                                <td style="color: red;">Nights must be a number.</td>
+                            </tr>
+                            <tr>
+                                <td><label for="Adults">Adults:</label></td>
+                                <td>
+                                    <select id="Adults">
+                                        <option value="0">0</option>
+                                        <option value="1" selected>1</option>
+                                        <option value="2" >2</option>
+                                        <option value="3" >3</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="Children">Children</label></td>
+                                <td>
+                                    <select id="Children">
+                                        <option value="0" selected>0</option>
+                                        <option value="1" >1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend style="color: blue;">Preferences</legend>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><label for="Room_type:">Room type:</label></td>
+                                <td><input type="radio" name="Room_type:" value="Standard" checked>Standard</td>
+                                <td><input type="radio" name="Room_type:" value="Business">Business<input type="radio" name="Room_type:" value="Suite">Suite</td> 
+                            </tr>
+                            <tr>
+                                <td><label for="Bed_type:">Bed type:</label></td>
+                                <td><input type="radio" name="Bed_type:" value="King" checked>King</td>
+                                <td><input type="radio" name="Bed_type:" value="Double_Double">Double Double</td>  
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox">Smoking</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend style="color: blue;">Contact Information</legend>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><label for="Name">Name</label></td>
+                                <td><input type="text" name="Name"></td>
+                                <td style="color: red;">Name is required.</td>
+                            </tr>
+                            <tr>
+                                <td><label for="Email">Email:</label></td>
+                                <td><input type="text" name="Email" value="graceyahoo.com"></td>
+                                <td style="color: red;">Email address is invalid.</td>
+                            </tr>
+                            <tr>
+                                <td><label for="Phone">Phone:</label></td>
+                                <td><input type="text" name="Phone" value="123-456-789"></td>
+                                <td style="color: red;">Phone number is invalid.</td>
+                            </tr>
+                        </tbody>
+                        <tfoot></tfoot>
+                    </table>
+                </fieldset>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    <input type="submit" value="Submit Reservation"><input type="reset" value="Clear">
+                    </tr>
+                </table>
+        
+            </form>
+</body>
+</html>
