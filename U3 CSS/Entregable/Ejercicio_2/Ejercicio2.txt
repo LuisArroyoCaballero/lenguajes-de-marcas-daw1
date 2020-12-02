@@ -1,0 +1,9 @@
+Esto se debe a que los últimos 5 párrafos no tienen en su etiqueta 
+el atributo class="verse", que como vimos en el ejercicio anterior,
+esta clase que esta creada en la hoja de estilos aplicara un margen
+de 60 pixeles a la izquierda (el espacio que hay a la izquierda)
+y el color del texto sera de color rojizo (maroon).
+
+Para que todos los párrafos tengan el mismo estilo solo debemos de
+añadir en el archivo html el atributo class con el valor verse a 
+las etiquetas que queramos que tengan ese estilo.

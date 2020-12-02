@@ -1,0 +1,62 @@
+body {background-color: tan}
+Con este selector le estamos dando a la etiqueta body
+(el cuerpo de la página) un color de fondo, es decir,
+que todo lo que este dentro de la etiqueta body tendrá 
+ese color de fondo.
+
+
+h1 {color:maroon; font-size:20pt}
+Con este selector le damos a todas las etiquetas <h1>
+(texto de título con un tamaño 1, cuanto menor es el
+número mayor es el tamaño, y en negrita)
+un color (al contenido, es decir, las letras del h1)
+y un tamaño de 20 pt (a las letras).
+
+
+hr {color:navy}
+
+Aqui le damos un color a las letras del hr, pero esta 
+etiqueta realiza una línea para separar temas, por lo 
+que no podremos ver ningún tipo de cambio en la página.
+
+
+p {font-size:12pt; margin-left: 15px}
+las letras dentro de las etiquetas <p> (párrafo, es decir,
+texto que no salta de línea hasta que cerremos la etiqueta
+</p> o hasta que lo especifiquemos) tendrán
+un tamaño de 12pt y un margen (este espacio se creara entre
+el elemento p y el elemento en bloque anterior, al no haber
+se aplica este espacio vacío entre el comienzo del body y el 
+contenido de la etiqueta <p>) a la izquierda de 15 píxeles.
+
+
+p.verse {color:maroon; margin-left: 60px}
+Aqui estamos creando una clase, las etiquetas que tengan el
+atributo class con valor "verse" tendran las letras de color
+maroon y un margen a la izquierda de 60 px (este espacio se 
+creara entre el elemento p y el elemento en bloque anterior, 
+al no haber se aplica este espacio vacío entre el comienzo 
+del body y el  contenido de la etiqueta <p>).
+
+
+a:link     {color:green}
+a:visited  {color:yellow}
+a:hover    {color:black}
+a:active   {color:blue}
+
+Todos estos selectoes se llaman "pseudoselectores". Estos son 
+utilizados para especificar que queremos hacer y en que etiqueta.
+Por ejemplo, el primer pseudoselector (a:link) le aplicara un estilo
+a todos los links de las etiquetas <a>, en este caso un color verde.
+Para a:visited se le aplicara al link un color amarillo cuando se
+haya visitado esa página. a:hover aplica un color negro al link
+cuando pasemos el raton por encima del link y a:active nos pone el
+link de color azul mientras lo estemos pulsando (todo esto para
+los links con etiqueta a).
+
+
+
+
+
+
+
