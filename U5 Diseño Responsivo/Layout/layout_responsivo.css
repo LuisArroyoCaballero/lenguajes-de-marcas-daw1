@@ -1,0 +1,527 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+/*BODY*/
+
+/*CONTAINER*/
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(223, 157, 190, 0.671);
+}
+
+/*HEADER*/
+
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+/*GRAFPEDIA TITULO*/
+
+.Grafpedia {
+    width: 60%;
+    height: 50px;
+    background-color: saddlebrown;
+    text-align: center;
+}
+
+/*BUSCADOR*/
+
+.buscador {
+    width: 50%;
+    height: 30px;
+    background-color: red;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscador input {
+    width: 90%;
+    height: 20px;
+}
+
+/*NAVEGADOR*/
+
+.nav {
+    width: 15%;
+    height: 30px;
+    background-color: green;
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+}
+
+.nav ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.nav ul li {
+    margin-left: 5%;
+}
+
+/*MAIN*/
+
+.imagenes {
+    width: 90%;
+    height: 400px;
+    background-color: yellow;
+}
+
+/*BOTON VIP*/
+
+.vip {
+    width: 100%;
+    height: 75px;
+    background-color: magenta;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*TEXTO VIP*/
+
+.texto_vip {
+    width: 70%;
+    height: 50px;
+    background-color: mediumaquamarine;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto_vip p {
+    width: 100%;
+    height: 40px;
+    margin: 0px;
+}
+
+/*BOTON VIP*/
+
+.boton_vip {
+    width: 20%;
+    height: 50px;
+    background-color: mediumslateblue;
+}
+
+/*ARTICULOS*/
+
+.article {
+    width: 90%;
+    height: 250px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between;
+    margin-bottom: 10px;
+}
+
+/*ARTICULO SERVICIOS*/
+
+.services {
+    background-color: orangered;
+}
+
+.article_services_title {
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+}
+
+.article_services_content {
+    width: 90%;
+    height: 150px;
+    background-color: grey;
+    margin-bottom: 20px;
+}
+
+/*ARTICULO PRODUCTOS*/
+
+.products {
+    background-color: palegreen;
+}
+
+.article_products_title {
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+}
+
+.article_products_content {
+    width: 90%;
+    height: 150px;
+    background-color: grey;
+    margin-bottom: 20px;
+}
+
+/*ARTICULO INFORMACION*/
+
+.about_us {
+    background-color: rebeccapurple;
+}
+
+.article_aboutus_title {
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+}
+
+.article_aboutus_content {
+    width: 90%;
+    height: 150px;
+    background-color: grey;
+    margin-bottom: 20px;
+}
+
+/*ARTICULO BLOG*/
+
+.article_blog {
+    width: 100%;
+    height: 400px;
+    background-color: royalblue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.article_blog_title {
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+}
+
+/*ARTICULO BLOG CONTENIDO*/
+
+.article_blog_content {
+    width: 90%;
+    height: 300px;
+    background-color: grey;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between;
+    margin-bottom: 30px;
+}
+
+.content_articulo {
+    width: 45%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+/*ARTICULO 1*/
+
+.articulo_1_blog {
+    width: 90%;
+    height: 120px;
+    background-color: khaki;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imagen_articulo_1 {
+    width: 45%;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.h1_articulo_1 {
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.texto_articulo_1 {
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+/*ARTICULO 2*/
+
+.articulo_2_blog {
+    width: 90%;
+    height: 120px;
+    background-color: hotpink;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.imagen_articulo_2 {
+    width: 45%;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.h1_articulo_2 {
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.texto_articulo_2 {
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+/*BREAKPOINT TABLET*/
+
+@media all and (min-width: 576px) {
+
+    /*CONTAINER TABLET*/
+
+    .container {
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-content: flex-start;
+    }
+
+    /*HEADER TABLET*/
+
+    .header {
+        height: 150px;
+        align-content: space-between;
+        order: 1;
+    }
+
+    .Grafpedia {
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    .buscador {
+        width: 30%;
+        margin-top: 30px;
+    }
+
+    .nav {
+        width: 90%;
+        height: 50px;
+    }
+
+    /*MAIN*/
+
+    /*IMAGENES DESPLAZABLES*/
+
+    .imagenes {
+        order: 2;
+    }
+
+    /*VIP*/
+
+    .vip {
+        width: 40%;
+        height: 200px;
+        order: 7;
+    }
+
+    /*TEXTO VIP*/
+
+    .texto_vip {
+        width: 90%;
+        height: 120px;
+    }
+
+    .texto_vip p {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+    }
+
+    .boton_vip {
+        width: 30%;
+    }
+
+
+
+    /*ARTICULOS*/
+
+    .article {
+        width: 40%;
+        margin-top: 10px;
+    }
+
+    /*ARTICULO 1*/
+
+    .services {
+        order: 3;
+    }
+
+    /*ARTICULO 2*/
+
+    .products {
+        order: 4;
+    }
+
+    /*ARTICULO 3*/
+
+
+    .about_us {
+        order: 6;
+    }
+
+    /*ARTICULO BLOG*/
+
+    .article_blog {
+        order: 5;
+        width: 40%;
+    }
+
+/*BREAKPOINT PANTALLAS GRANDES*/
+
+@media all and (min-width: 992px){
+
+    /*CONTAINER*/
+
+    .container {
+        justify-content: space-between;
+    }
+    
+    /*HEADER*/
+
+    .buscador {
+        margin-top: 20px;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    /*IMAGENES DESPLAZABLES*/
+
+    .imagenes {
+        width: 100%;
+    }
+
+    /*VIP*/
+
+    .vip {
+        width: 100%;
+        height: 100px;
+        order: 3;
+    }
+
+    /*TEXTO VIP*/
+
+    .texto_vip {
+        width: 70%;
+        height: 70px;
+    }
+
+    .texto_vip p {
+        width: 100%;
+        height: 30px;
+        
+    }
+
+    .boton_vip {
+        width: 25%;
+        height: 70px;
+    }
+
+    /*ARTICULOS*/
+
+    .article {
+        width: 32%;
+    }
+
+    .services {
+        order: 4;
+    }
+
+    .products {
+        order: 5;
+    }
+
+    .about_us {
+        order: 6;
+    }
+
+    /*ARTICULO BLOG*/
+
+    .article_blog {
+        width: 100%;
+        order: 7;
+    }
+
+    .article_blog_content {
+        justify-content: space-evenly;
+    }
+
+    .articulo_1_blog {
+        width: 45%;
+        height: 250px;
+    }
+
+    .articulo_2_blog {
+        width: 45%;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .content_articulo {
+        height: 150px;
+    }
+
+    /*BLOG ARTICULO 1*/
+
+    .imagen_articulo_1 {
+        height: 150px;
+    }
+
+    .h1_articulo_1 {
+        height: 70px;
+    }
+
+    .texto_articulo_1 {
+        height: 70px;
+    }
+
+    /*BLOG ARTICULO 2*/
+
+    .imagen_articulo_2 {
+        height: 150px;
+    }
+
+    .h1_articulo_2 {
+        height: 70px;
+    }
+
+    .texto_articulo_2 {
+        height: 70px;
+    }
+
+}
+
+}

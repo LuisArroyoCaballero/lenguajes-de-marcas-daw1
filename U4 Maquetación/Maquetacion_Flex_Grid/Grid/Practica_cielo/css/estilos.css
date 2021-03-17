@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    width: 85%;
+    background-color: blue;
+    margin: 20px auto;
+    justify-content: center;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(9,10%);
+    grid-template-rows: repeat(8,100px);
+    
+}
+
+/*temp*/
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+/*HEADER*/
+
+header {
+    grid-area: header;
+    justify-content: end;
+
+}
+
+body {
+    grid-area: body;
+
+}
+
+footer {
+    grid-area: footer;
+
+}
