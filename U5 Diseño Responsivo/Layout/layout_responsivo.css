@@ -1,9 +1,39 @@
 * {
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 /*BODY*/
+
+p {
+    font-style: italic;
+    margin: 0px;
+    text-align: center;
+    padding: 5px;
+    font-size: 6vw;
+    color: #9db4be;
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin: 0px;
+    font-size: 8vw;
+    margin-left: 2%;
+    color: #c8d4da;
+}
+
+h2 {
+    font-style: italic;
+    margin: 0px;
+    font-size: 7vw;
+    color: #9db4be;
+}
+
+li {
+    font-style: italic;
+    font-size: 6vw;
+    color: #9db4be;
+}
 
 /*CONTAINER*/
 
@@ -14,27 +44,28 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(223, 157, 190, 0.671);
+    background-color: #33434b;
 }
 
 /*HEADER*/
 
 .header {
     width: 100%;
-    height: 120px;
-    background-color: blue;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: space-around;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 12vw;
 }
 
 /*GRAFPEDIA TITULO*/
 
 .Grafpedia {
-    width: 60%;
-    height: 50px;
-    background-color: saddlebrown;
+    width: 80%;
     text-align: center;
 }
 
@@ -42,8 +73,6 @@
 
 .buscador {
     width: 50%;
-    height: 30px;
-    background-color: red;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -52,18 +81,23 @@
 
 .buscador input {
     width: 90%;
-    height: 20px;
+    height: 40px ;
+    padding-left: 7%;
+    font-style: italic;
+    color: darkgrey;
+    background-color: whitesmoke;
+    border-radius: 7px;
 }
 
 /*NAVEGADOR*/
 
 .nav {
-    width: 15%;
-    height: 30px;
+    display: none;
+    /*width: 15%;
     background-color: green;
     display: flex;
     flex-flow: wrap row;
-    align-items: center;
+    align-items: center;*/
 }
 
 .nav ul {
@@ -84,16 +118,35 @@
 
 .imagenes {
     width: 90%;
-    height: 400px;
-    background-color: yellow;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.imagenes picture {
+    width: 91%;
+}
+
+.imagenes picture img {
+    width: 100%;
+}
+
+/*ARTICLE*/
+
+article {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 /*BOTON VIP*/
 
 .vip {
     width: 100%;
-    height: 75px;
-    background-color: magenta;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -103,9 +156,7 @@
 /*TEXTO VIP*/
 
 .texto_vip {
-    width: 70%;
-    height: 50px;
-    background-color: mediumaquamarine;
+    width: 90%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -114,111 +165,138 @@
 
 .texto_vip p {
     width: 100%;
-    height: 40px;
     margin: 0px;
 }
 
 /*BOTON VIP*/
 
 .boton_vip {
-    width: 20%;
-    height: 50px;
-    background-color: mediumslateblue;
+    width: 60%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.boton_vip p {
+    text-align: center;
+    color: #e4e5e6;
+    background-color: #516e84;
+    border-radius: 5px;
 }
 
 /*ARTICULOS*/
 
 .article {
     width: 90%;
-    height: 250px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-content: space-between;
     margin-bottom: 10px;
+    background-color: #9db4be;
+    border-radius: 10px;
+}
+
+.article * p {
+    color: #516e84;
+}
+
+.article * li {
+    color: #516e84;
+    font-weight: bolder;
 }
 
 /*ARTICULO SERVICIOS*/
 
-.services {
-    background-color: orangered;
-}
-
 .article_services_title {
     width: 100%;
-    height: 50px;
-    background-color: skyblue;
+    background-color: #618695;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .article_services_content {
     width: 90%;
-    height: 150px;
-    background-color: grey;
     margin-bottom: 20px;
+}
+
+.services div ul {
+    margin-top: 3px;
 }
 
 /*ARTICULO PRODUCTOS*/
 
-.products {
-    background-color: palegreen;
-}
-
 .article_products_title {
     width: 100%;
-    height: 50px;
-    background-color: skyblue;
+    background-color: #618695;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .article_products_content {
     width: 90%;
-    height: 150px;
-    background-color: grey;
     margin-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.article_products_content div {
+    width: 30%;
+    margin-top: 20px;
+}
+
+.article_products_content div img {
+    width: 100%;
+    max-width: 130px;
 }
 
 /*ARTICULO INFORMACION*/
 
-.about_us {
-    background-color: rebeccapurple;
-}
-
 .article_aboutus_title {
     width: 100%;
-    height: 50px;
-    background-color: skyblue;
+    background-color: #618695;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .article_aboutus_content {
     width: 90%;
-    height: 150px;
-    background-color: grey;
     margin-bottom: 20px;
 }
 
 /*ARTICULO BLOG*/
 
 .article_blog {
-    width: 100%;
-    height: 400px;
-    background-color: royalblue;
+    width: 90%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-content: space-between;
+    background-color: #9db4be;
+    border-radius: 10px;
+}
+
+.article_blog * h2 {
+    color: #224350;
+    font-weight: bolder;
+}
+
+.article_blog * p {
+    color: #618695;
 }
 
 .article_blog_title {
     width: 100%;
-    height: 50px;
-    background-color: skyblue;
+    background-color: #618695;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 /*ARTICULO BLOG CONTENIDO*/
 
 .article_blog_content {
-    width: 90%;
-    height: 300px;
-    background-color: grey;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -227,7 +305,7 @@
 }
 
 .content_articulo {
-    width: 45%;
+    width: 90%;
     display: flex;
     flex-flow: row wrap;
     align-content: space-between;
@@ -237,8 +315,6 @@
 
 .articulo_1_blog {
     width: 90%;
-    height: 120px;
-    background-color: khaki;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -247,52 +323,47 @@
 }
 
 .imagen_articulo_1 {
-    width: 45%;
-    height: 100px;
-    background-color: blueviolet;
+    width: 70%;
+}
+
+.imagen_articulo_1 img {
+    width: 100%;
 }
 
 .h1_articulo_1 {
     width: 100%;
-    height: 50px;
-    background-color: blueviolet;
 }
 
 .texto_articulo_1 {
     width: 100%;
-    height: 50px;
-    background-color: blueviolet;
 }
 
 /*ARTICULO 2*/
 
 .articulo_2_blog {
     width: 90%;
-    height: 120px;
-    background-color: hotpink;
     display: flex;
     flex-flow: wrap row;
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 20px;
+    padding-top: 10px;
 }
 
 .imagen_articulo_2 {
-    width: 45%;
-    height: 100px;
-    background-color: blueviolet;
+    width: 70%;
+}
+
+.imagen_articulo_2 img {
+    width: 100%;
 }
 
 .h1_articulo_2 {
     width: 100%;
-    height: 50px;
-    background-color: blueviolet;
 }
 
 .texto_articulo_2 {
     width: 100%;
-    height: 50px;
-    background-color: blueviolet;
 }
 
 /*BREAKPOINT TABLET*/
@@ -307,17 +378,37 @@
         align-content: flex-start;
     }
 
+    
+    p {
+        font-size: 4vw;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    li {
+        font-size: 4vw;
+    }
+
     /*HEADER TABLET*/
 
     .header {
-        height: 150px;
         align-content: space-between;
-        order: 1;
+        order: 0;
     }
 
     .Grafpedia {
         width: 40%;
         margin-top: 20px;
+    }
+
+    .Grafpedia h1 {
+        font-size: 8vw;
     }
 
     .buscador {
@@ -326,8 +417,24 @@
     }
 
     .nav {
-        width: 90%;
+        display: flex;
+        width: 82%;
+        background-color: #618695;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
         height: 50px;
+        align-items: center;
+    }
+
+    .nav ul {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .nav * li {
+        color: #e4e5e6;
+        font-size: 2.5vw;
+        margin-left: 1%;
     }
 
     /*MAIN*/
@@ -341,21 +448,18 @@
     /*VIP*/
 
     .vip {
-        width: 40%;
-        height: 200px;
-        order: 7;
+        width: 90%;
+        order: 2;
     }
 
     /*TEXTO VIP*/
 
     .texto_vip {
         width: 90%;
-        height: 120px;
     }
 
     .texto_vip p {
         width: 100%;
-        height: 100px;
         text-align: center;
     }
 
@@ -368,34 +472,50 @@
     /*ARTICULOS*/
 
     .article {
-        width: 40%;
+        width: 45%;
         margin-top: 10px;
     }
 
     /*ARTICULO 1*/
 
     .services {
-        order: 3;
+        width: 90%;
+        order: 4;
     }
 
     /*ARTICULO 2*/
 
     .products {
-        order: 4;
+        order: 5;
     }
+
+    .article_products_content div {
+        width: 49%;
+    }
+
+    .article_products_content div img {
+        width: 70%;
+    }
+
+
+
 
     /*ARTICULO 3*/
 
 
     .about_us {
-        order: 6;
+        order: 4;
+    }
+
+    .about_us * p{
+        font-size: 2.5vw;
     }
 
     /*ARTICULO BLOG*/
 
     .article_blog {
-        order: 5;
-        width: 40%;
+        order: 7;
+        width: 90%;
     }
 
 /*BREAKPOINT PANTALLAS GRANDES*/
@@ -407,15 +527,57 @@
     .container {
         justify-content: space-between;
     }
+
+    p {
+        font-size: 1vw;
+    }
+
+    h1 {
+        font-size: 2vw;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+    h2 {
+        font-size: 2vw;
+    }
+
+    li {
+        font-size: 1vw;
+    }
     
     /*HEADER*/
 
+    .header {
+        justify-content: space-around;
+    }
+
+    .header h1 {
+        font-size: 4.5vw;
+        text-align: left;
+    }
+
+    .header ul li {
+        font-size: 2vw;
+    }
+
+    .Grafpedia {
+        width: 50%;
+        margin-top: 2px;
+        margin-bottom: 20px;
+    }
+
     .buscador {
-        margin-top: 20px;
+        margin-top: 0px;
+        margin-bottom: 20px;
     }
 
     .nav {
-        width: 100%;
+        display: flex;
+        width: 91%;
+        background-color: #618695;
+        height: 50px;
+        align-items: center;
     }
 
     /*IMAGENES DESPLAZABLES*/
@@ -428,7 +590,6 @@
 
     .vip {
         width: 100%;
-        height: 100px;
         order: 3;
     }
 
@@ -436,18 +597,19 @@
 
     .texto_vip {
         width: 70%;
-        height: 70px;
     }
 
     .texto_vip p {
-        width: 100%;
-        height: 30px;
-        
+        width: 100%;  
+        font-size: 2vw;     
     }
 
     .boton_vip {
         width: 25%;
-        height: 70px;
+    }
+
+    .boton_vip p {
+        font-size: 2vw;    
     }
 
     /*ARTICULOS*/
@@ -464,15 +626,34 @@
         order: 5;
     }
 
+    .article_products_content div {
+        width: 30%;
+    }
+    .article_products_content div img {
+        width: 95%;
+    }
+
     .about_us {
         order: 6;
+    }
+
+    .article * p {
+        font-size: 1.3vw;
+    }
+
+    .article * li {
+        font-size: 1.5vw;
     }
 
     /*ARTICULO BLOG*/
 
     .article_blog {
-        width: 100%;
+        width: 98%;
         order: 7;
+    }
+
+    .content_articulo {
+        width: 50%;
     }
 
     .article_blog_content {
@@ -481,47 +662,29 @@
 
     .articulo_1_blog {
         width: 45%;
-        height: 250px;
+    }
+
+    .imagen_articulo_1 {
+        width: 45%;
+    }
+
+    .articulo_1_blog img {
+        width: 100%;
+        margin-bottom: 20px;
     }
 
     .articulo_2_blog {
         width: 45%;
-        height: 250px;
         margin-top: 20px;
     }
 
-    .content_articulo {
-        height: 150px;
-    }
-
-    /*BLOG ARTICULO 1*/
-
-    .imagen_articulo_1 {
-        height: 150px;
-    }
-
-    .h1_articulo_1 {
-        height: 70px;
-    }
-
-    .texto_articulo_1 {
-        height: 70px;
-    }
-
-    /*BLOG ARTICULO 2*/
-
     .imagen_articulo_2 {
-        height: 150px;
+        width: 45%;
     }
 
-    .h1_articulo_2 {
-        height: 70px;
+    .articulo_2_blog img {
+        width: 100%;
     }
-
-    .texto_articulo_2 {
-        height: 70px;
-    }
-
 }
 
 }
