@@ -1,0 +1,38 @@
+.container {
+  border: 3px solid grey;
+}
+
+header {
+  background-color: #75a3b9;
+  margin-bottom: 15px;
+}
+header div img {
+  width: 60%;
+}
+header .mi-nombre {
+  margin-top: 20px;
+}
+header .mi-nombre h1 {
+  color: #fcfcfc;
+}
+header .mi-nombre h2 {
+  color: #fcfcfc;
+}
+
+main .main-1 {
+  margin-bottom: 15px;
+}
+main .main-2 {
+  margin-bottom: 15px;
+}
+main .main-3 {
+  margin-bottom: 15px;
+}
+main .main-4 {
+  margin-bottom: 15px;
+}
+main .main-5 {
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=curriculum.css.map */

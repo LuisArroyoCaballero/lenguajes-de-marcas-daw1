@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    height: 500px;
+}
+
+.red {
+    height: 200px;
+    background-color: red;
+}
+
+.blue {
+    height: 200px;
+    background-color: blue;
+}
+
+.yellow {
+    height: 200px;
+    background-color: yellow;
+}
