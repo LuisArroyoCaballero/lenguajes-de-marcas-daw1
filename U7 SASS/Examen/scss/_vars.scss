@@ -1,0 +1,20 @@
+/* Partial para las variables de colores y seleccionar tema oscuro o claro de la pagina. */
+
+$background-color: rgb(236, 232, 232) !default;
+$font-color: rgb(10, 10, 10) !default;
+
+$dark-theme: false;
+
+/* Condicion para usar el tema oscuro */
+
+@if $dark-theme {
+    $background-color: rgb(54, 53, 53);
+    $font-color: rgb(209, 208, 208);
+}
+
+$rojo: rgb(184, 45, 45);
+$verde: rgb(47, 172, 47);
+$amarillo: rgb(187, 172, 36);
+$azul: rgb(62, 62, 240);
+
+$color-list: $rojo, $verde, $amarillo, $azul;

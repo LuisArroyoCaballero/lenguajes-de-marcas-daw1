@@ -1,0 +1,17 @@
+/* Partial para los mixins de reset y centrado de la pagina. */
+
+$zero-pixels: 0px;
+$margin-auto-0: "0px auto";
+
+@mixin reset() {
+    p,h1,h2,h3,h4,h5,h6 {
+        margin: 0px;
+    }
+}
+
+@mixin centrado($margin-top,$margin-bottom,$width) {
+    margin: #{$margin-auto-0};
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+    width: $width;
+}

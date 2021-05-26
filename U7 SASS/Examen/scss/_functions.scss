@@ -1,0 +1,7 @@
+/* Partial para la funcion selectora de color. */
+
+@use "sass:list";
+
+@function colorSectionTitle($number) {
+    @return nth($color-list, $number);
+}

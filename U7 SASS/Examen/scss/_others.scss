@@ -1,0 +1,37 @@
+/* Partial que contiene otros aspectos de los estilos de la pagina. */
+
+@include reset();
+$fifteen-pixels: 15px;
+$thirty-pixels: 30px;
+$fourty-pixels: 40px;
+$container-width: 75%;
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Bucle para aplicar colores a los titulos de las secciones. */
+
+@for $i from 1 to 5 {
+    .section-title-#{$i} {
+        color: colorSectionTitle($i);
+    }
+}
+
+body {
+    background-color: $background-color;
+    color: $font-color;
+}
+
+.container {
+    @include centrado($fifteen-pixels,$fourty-pixels,$container-width);
+}
+
+.header {
+    margin-bottom: $thirty-pixels;
+}
+
+.full-name {
+    font-size: $fourty-pixels;
+}

@@ -1,0 +1,55 @@
+/* Partial para estructurar y maquetar las secciones de la pagina. */
+
+$margin: 15px;
+$half-width: 50%;
+$complete-width: 100%;
+
+.section {
+    .section__title {
+        margin-bottom: $margin;
+    }
+    .section__list {
+        .section__list-item {
+            width: $complete-width;
+            margin-bottom: $margin;
+            margin-top: $margin;
+            display: flex;
+            flex-flow: row wrap;
+
+            .name {
+                width: $complete-width;
+                font-weight: bolder;
+            }
+
+            .text {
+                width: $complete-width;
+            }
+
+            .right, .left {
+                width: $half-width;
+            }
+        }
+    }
+}
+
+/* Bucle para colocar bordes mas gruesos en las secciones impares y mas pequeños */
+
+@for $i from 1 to 5 {
+    @if $i % 2 != 0 {
+        .section-title-#{$i} {
+            $border-bottom-general: "2px solid black"; 
+            border-bottom: #{$border-bottom-general};
+        }
+    } @else if $i % 2 == 0 {
+        .section-title-#{$i} {
+            $border-bottom-2: "solid 1px black";
+            border-bottom: #{$border-bottom-2};
+        }
+    }
+}
+
+.section:last-child {
+    .section__title {
+        border-bottom: none;
+    }
+}

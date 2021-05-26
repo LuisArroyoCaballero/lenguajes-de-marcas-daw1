@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* Partial para las variables de colores y seleccionar tema oscuro o claro de la pagina. */
+/* Condicion para usar el tema oscuro */
+/* Partial para estructurar y maquetar las secciones de la pagina. */
+.section .section__title {
+  margin-bottom: 15px;
+}
+.section .section__list .section__list-item {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.section .section__list .section__list-item .name {
+  width: 100%;
+  font-weight: bolder;
+}
+.section .section__list .section__list-item .text {
+  width: 100%;
+}
+.section .section__list .section__list-item .right, .section .section__list .section__list-item .left {
+  width: 50%;
+}
+
+/* Bucle para colocar bordes mas gruesos en las secciones impares y mas pequeños */
+.section-title-1 {
+  border-bottom: 2px solid black;
+}
+
+.section-title-2 {
+  border-bottom: solid 1px black;
+}
+
+.section-title-3 {
+  border-bottom: 2px solid black;
+}
+
+.section-title-4 {
+  border-bottom: solid 1px black;
+}
+
+.section:last-child .section__title {
+  border-bottom: none;
+}
+
+/* Partial para los mixins de reset y centrado de la pagina. */
+/* Partial para la funcion selectora de color. */
+/* Partial que contiene otros aspectos de los estilos de la pagina. */
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Bucle para aplicar colores a los titulos de las secciones. */
+.section-title-1 {
+  color: #b82d2d;
+}
+
+.section-title-2 {
+  color: #2fac2f;
+}
+
+.section-title-3 {
+  color: #bbac24;
+}
+
+.section-title-4 {
+  color: #3e3ef0;
+}
+
+body {
+  background-color: #ece8e8;
+  color: #0a0a0a;
+}
+
+.container {
+  margin: 0px auto;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  width: 75%;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.full-name {
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=styles.css.map */
